@@ -6052,3 +6052,407 @@ Rendering template within layouts/default
 Rendering contacts/payment
 Filter chain halted as [:create_confirmation] rendered_or_redirected.
 Completed in 0.00287 (348 reqs/sec) | Rendering: 0.00244 (85%) | DB: 0.00000 (0%) | 200 OK [http://192.168.1.153/contact]
+
+
+Processing ContactsController#show (for 192.168.1.226 at 2009-01-07 19:23:46) [GET]
+  Session ID: BAh7ByIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7ADoMY3NyZl9pZCIlZWUwOTA3ZmMwZDk5YTRiNTc3
+NzE3YzIzM2MxZDBmNGM=--79c0346e7f451e3258e41d967f097a93e2e9bec0
+  Parameters: {"action"=>"show", "controller"=>"contacts"}
+Rendering template within layouts/default
+Rendering contacts/new
+Completed in 0.01958 (51 reqs/sec) | Rendering: 0.00967 (49%) | DB: 0.00000 (0%) | 200 OK [http://192.168.1.153/contact]
+
+
+Processing ApplicationController#index (for 192.168.1.226 at 2009-01-07 19:24:20) [GET]
+  Session ID: BAh7ByIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7ADoMY3NyZl9pZCIlZWUwOTA3ZmMwZDk5YTRiNTc3
+NzE3YzIzM2MxZDBmNGM=--79c0346e7f451e3258e41d967f097a93e2e9bec0
+  Parameters: {"action"=>"index", "controller"=>"contact"}
+
+
+NameError (uninitialized constant ContactController):
+    /bear2/lib/ruby/gems/1.8/gems/activesupport-2.1.2/lib/active_support/dependencies.rb:279:in `load_missing_constant'
+    /bear2/lib/ruby/gems/1.8/gems/activesupport-2.1.2/lib/active_support/dependencies.rb:468:in `const_missing'
+    /bear2/lib/ruby/gems/1.8/gems/activesupport-2.1.2/lib/active_support/dependencies.rb:480:in `const_missing'
+    /bear2/lib/ruby/gems/1.8/gems/activesupport-2.1.2/lib/active_support/inflector.rb:285:in `constantize'
+    /bear2/lib/ruby/gems/1.8/gems/activesupport-2.1.2/lib/active_support/inflector.rb:284:in `each'
+    /bear2/lib/ruby/gems/1.8/gems/activesupport-2.1.2/lib/active_support/inflector.rb:284:in `constantize'
+    /bear2/lib/ruby/gems/1.8/gems/activesupport-2.1.2/lib/active_support/core_ext/string/inflections.rb:143:in `constantize'
+    /bear2/lib/ruby/gems/1.8/gems/actionpack-2.1.2/lib/action_controller/routing/route_set.rb:387:in `recognize'
+    /bear2/lib/ruby/gems/1.8/gems/actionpack-2.1.2/lib/action_controller/dispatcher.rb:148:in `handle_request'
+    /bear2/lib/ruby/gems/1.8/gems/actionpack-2.1.2/lib/action_controller/dispatcher.rb:107:in `dispatch'
+    /bear2/lib/ruby/gems/1.8/gems/actionpack-2.1.2/lib/action_controller/dispatcher.rb:104:in `synchronize'
+    /bear2/lib/ruby/gems/1.8/gems/actionpack-2.1.2/lib/action_controller/dispatcher.rb:104:in `dispatch'
+    /bear2/lib/ruby/gems/1.8/gems/actionpack-2.1.2/lib/action_controller/dispatcher.rb:120:in `dispatch_cgi'
+    /bear2/lib/ruby/gems/1.8/gems/actionpack-2.1.2/lib/action_controller/dispatcher.rb:35:in `dispatch'
+    /bear2/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:76:in `process'
+    /bear2/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    /bear2/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `process'
+    /bear2/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+    /bear2/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+    /bear2/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+    /bear2/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /bear2/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+    /bear2/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+    /bear2/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /bear2/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+    /bear2/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+    /bear2/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+    /bear2/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:282:in `run'
+    /bear2/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:281:in `each'
+    /bear2/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:281:in `run'
+    /bear2/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:128:in `run'
+    /bear2/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel/command.rb:212:in `run'
+    /bear2/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:281
+    /bear2/lib/ruby/gems/1.8/gems/activesupport-2.1.2/lib/active_support/dependencies.rb:503:in `load'
+    /bear2/lib/ruby/gems/1.8/gems/activesupport-2.1.2/lib/active_support/dependencies.rb:503:in `load'
+    /bear2/lib/ruby/gems/1.8/gems/activesupport-2.1.2/lib/active_support/dependencies.rb:355:in `new_constants_in'
+    /bear2/lib/ruby/gems/1.8/gems/activesupport-2.1.2/lib/active_support/dependencies.rb:503:in `load'
+    /bear2/lib/ruby/gems/1.8/gems/rails-2.1.2/lib/commands/servers/mongrel.rb:64
+    /bear2/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /bear2/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    /bear2/lib/ruby/gems/1.8/gems/activesupport-2.1.2/lib/active_support/dependencies.rb:510:in `require'
+    /bear2/lib/ruby/gems/1.8/gems/activesupport-2.1.2/lib/active_support/dependencies.rb:355:in `new_constants_in'
+    /bear2/lib/ruby/gems/1.8/gems/activesupport-2.1.2/lib/active_support/dependencies.rb:510:in `require'
+    /bear2/lib/ruby/gems/1.8/gems/rails-2.1.2/lib/commands/server.rb:39
+    /bear2/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /bear2/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    ./script/server:3
+
+Rendering /bear2/lib/ruby/gems/1.8/gems/actionpack-2.1.2/lib/action_controller/templates/rescues/layout.erb (internal_server_error)
+
+
+Processing ApplicationController#index (for 192.168.1.226 at 2009-01-07 19:24:21) [GET]
+  Session ID: BAh7ByIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7ADoMY3NyZl9pZCIlZWUwOTA3ZmMwZDk5YTRiNTc3
+NzE3YzIzM2MxZDBmNGM=--79c0346e7f451e3258e41d967f097a93e2e9bec0
+  Parameters: {"action"=>"index", "controller"=>"contact"}
+
+
+NameError (uninitialized constant ContactController):
+    /bear2/lib/ruby/gems/1.8/gems/activesupport-2.1.2/lib/active_support/dependencies.rb:279:in `load_missing_constant'
+    /bear2/lib/ruby/gems/1.8/gems/activesupport-2.1.2/lib/active_support/dependencies.rb:468:in `const_missing'
+    /bear2/lib/ruby/gems/1.8/gems/activesupport-2.1.2/lib/active_support/dependencies.rb:480:in `const_missing'
+    /bear2/lib/ruby/gems/1.8/gems/activesupport-2.1.2/lib/active_support/inflector.rb:285:in `constantize'
+    /bear2/lib/ruby/gems/1.8/gems/activesupport-2.1.2/lib/active_support/inflector.rb:284:in `each'
+    /bear2/lib/ruby/gems/1.8/gems/activesupport-2.1.2/lib/active_support/inflector.rb:284:in `constantize'
+    /bear2/lib/ruby/gems/1.8/gems/activesupport-2.1.2/lib/active_support/core_ext/string/inflections.rb:143:in `constantize'
+    /bear2/lib/ruby/gems/1.8/gems/actionpack-2.1.2/lib/action_controller/routing/route_set.rb:387:in `recognize'
+    /bear2/lib/ruby/gems/1.8/gems/actionpack-2.1.2/lib/action_controller/dispatcher.rb:148:in `handle_request'
+    /bear2/lib/ruby/gems/1.8/gems/actionpack-2.1.2/lib/action_controller/dispatcher.rb:107:in `dispatch'
+    /bear2/lib/ruby/gems/1.8/gems/actionpack-2.1.2/lib/action_controller/dispatcher.rb:104:in `synchronize'
+    /bear2/lib/ruby/gems/1.8/gems/actionpack-2.1.2/lib/action_controller/dispatcher.rb:104:in `dispatch'
+    /bear2/lib/ruby/gems/1.8/gems/actionpack-2.1.2/lib/action_controller/dispatcher.rb:120:in `dispatch_cgi'
+    /bear2/lib/ruby/gems/1.8/gems/actionpack-2.1.2/lib/action_controller/dispatcher.rb:35:in `dispatch'
+    /bear2/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:76:in `process'
+    /bear2/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    /bear2/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `process'
+    /bear2/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+    /bear2/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+    /bear2/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+    /bear2/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /bear2/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+    /bear2/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+    /bear2/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /bear2/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+    /bear2/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+    /bear2/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+    /bear2/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:282:in `run'
+    /bear2/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:281:in `each'
+    /bear2/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:281:in `run'
+    /bear2/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:128:in `run'
+    /bear2/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel/command.rb:212:in `run'
+    /bear2/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:281
+    /bear2/lib/ruby/gems/1.8/gems/activesupport-2.1.2/lib/active_support/dependencies.rb:503:in `load'
+    /bear2/lib/ruby/gems/1.8/gems/activesupport-2.1.2/lib/active_support/dependencies.rb:503:in `load'
+    /bear2/lib/ruby/gems/1.8/gems/activesupport-2.1.2/lib/active_support/dependencies.rb:355:in `new_constants_in'
+    /bear2/lib/ruby/gems/1.8/gems/activesupport-2.1.2/lib/active_support/dependencies.rb:503:in `load'
+    /bear2/lib/ruby/gems/1.8/gems/rails-2.1.2/lib/commands/servers/mongrel.rb:64
+    /bear2/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /bear2/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    /bear2/lib/ruby/gems/1.8/gems/activesupport-2.1.2/lib/active_support/dependencies.rb:510:in `require'
+    /bear2/lib/ruby/gems/1.8/gems/activesupport-2.1.2/lib/active_support/dependencies.rb:355:in `new_constants_in'
+    /bear2/lib/ruby/gems/1.8/gems/activesupport-2.1.2/lib/active_support/dependencies.rb:510:in `require'
+    /bear2/lib/ruby/gems/1.8/gems/rails-2.1.2/lib/commands/server.rb:39
+    /bear2/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /bear2/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    ./script/server:3
+
+Rendering /bear2/lib/ruby/gems/1.8/gems/actionpack-2.1.2/lib/action_controller/templates/rescues/layout.erb (internal_server_error)
+
+
+Processing ApplicationController#index (for 192.168.1.226 at 2009-01-07 19:24:21) [GET]
+  Session ID: BAh7ByIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7ADoMY3NyZl9pZCIlZWUwOTA3ZmMwZDk5YTRiNTc3
+NzE3YzIzM2MxZDBmNGM=--79c0346e7f451e3258e41d967f097a93e2e9bec0
+  Parameters: {"action"=>"index", "controller"=>"contact"}
+
+
+NameError (uninitialized constant ContactController):
+    /bear2/lib/ruby/gems/1.8/gems/activesupport-2.1.2/lib/active_support/dependencies.rb:279:in `load_missing_constant'
+    /bear2/lib/ruby/gems/1.8/gems/activesupport-2.1.2/lib/active_support/dependencies.rb:468:in `const_missing'
+    /bear2/lib/ruby/gems/1.8/gems/activesupport-2.1.2/lib/active_support/dependencies.rb:480:in `const_missing'
+    /bear2/lib/ruby/gems/1.8/gems/activesupport-2.1.2/lib/active_support/inflector.rb:285:in `constantize'
+    /bear2/lib/ruby/gems/1.8/gems/activesupport-2.1.2/lib/active_support/inflector.rb:284:in `each'
+    /bear2/lib/ruby/gems/1.8/gems/activesupport-2.1.2/lib/active_support/inflector.rb:284:in `constantize'
+    /bear2/lib/ruby/gems/1.8/gems/activesupport-2.1.2/lib/active_support/core_ext/string/inflections.rb:143:in `constantize'
+    /bear2/lib/ruby/gems/1.8/gems/actionpack-2.1.2/lib/action_controller/routing/route_set.rb:387:in `recognize'
+    /bear2/lib/ruby/gems/1.8/gems/actionpack-2.1.2/lib/action_controller/dispatcher.rb:148:in `handle_request'
+    /bear2/lib/ruby/gems/1.8/gems/actionpack-2.1.2/lib/action_controller/dispatcher.rb:107:in `dispatch'
+    /bear2/lib/ruby/gems/1.8/gems/actionpack-2.1.2/lib/action_controller/dispatcher.rb:104:in `synchronize'
+    /bear2/lib/ruby/gems/1.8/gems/actionpack-2.1.2/lib/action_controller/dispatcher.rb:104:in `dispatch'
+    /bear2/lib/ruby/gems/1.8/gems/actionpack-2.1.2/lib/action_controller/dispatcher.rb:120:in `dispatch_cgi'
+    /bear2/lib/ruby/gems/1.8/gems/actionpack-2.1.2/lib/action_controller/dispatcher.rb:35:in `dispatch'
+    /bear2/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:76:in `process'
+    /bear2/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    /bear2/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `process'
+    /bear2/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+    /bear2/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+    /bear2/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+    /bear2/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /bear2/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+    /bear2/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+    /bear2/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /bear2/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+    /bear2/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+    /bear2/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+    /bear2/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:282:in `run'
+    /bear2/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:281:in `each'
+    /bear2/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:281:in `run'
+    /bear2/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:128:in `run'
+    /bear2/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel/command.rb:212:in `run'
+    /bear2/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:281
+    /bear2/lib/ruby/gems/1.8/gems/activesupport-2.1.2/lib/active_support/dependencies.rb:503:in `load'
+    /bear2/lib/ruby/gems/1.8/gems/activesupport-2.1.2/lib/active_support/dependencies.rb:503:in `load'
+    /bear2/lib/ruby/gems/1.8/gems/activesupport-2.1.2/lib/active_support/dependencies.rb:355:in `new_constants_in'
+    /bear2/lib/ruby/gems/1.8/gems/activesupport-2.1.2/lib/active_support/dependencies.rb:503:in `load'
+    /bear2/lib/ruby/gems/1.8/gems/rails-2.1.2/lib/commands/servers/mongrel.rb:64
+    /bear2/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /bear2/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    /bear2/lib/ruby/gems/1.8/gems/activesupport-2.1.2/lib/active_support/dependencies.rb:510:in `require'
+    /bear2/lib/ruby/gems/1.8/gems/activesupport-2.1.2/lib/active_support/dependencies.rb:355:in `new_constants_in'
+    /bear2/lib/ruby/gems/1.8/gems/activesupport-2.1.2/lib/active_support/dependencies.rb:510:in `require'
+    /bear2/lib/ruby/gems/1.8/gems/rails-2.1.2/lib/commands/server.rb:39
+    /bear2/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /bear2/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    ./script/server:3
+
+Rendering /bear2/lib/ruby/gems/1.8/gems/actionpack-2.1.2/lib/action_controller/templates/rescues/layout.erb (internal_server_error)
+
+
+Processing ContactsController#index (for 192.168.1.226 at 2009-01-07 19:24:32) [GET]
+  Session ID: BAh7ByIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7ADoMY3NyZl9pZCIlZWUwOTA3ZmMwZDk5YTRiNTc3
+NzE3YzIzM2MxZDBmNGM=--79c0346e7f451e3258e41d967f097a93e2e9bec0
+  Parameters: {"action"=>"index", "controller"=>"contacts"}
+
+
+ActionController::UnknownAction (No action responded to index):
+    /bear2/lib/ruby/gems/1.8/gems/actionpack-2.1.2/lib/action_controller/filters.rb:579:in `call_filters'
+    /bear2/lib/ruby/gems/1.8/gems/actionpack-2.1.2/lib/action_controller/filters.rb:572:in `perform_action_without_benchmark'
+    /bear2/lib/ruby/gems/1.8/gems/actionpack-2.1.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /bear2/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /bear2/lib/ruby/gems/1.8/gems/actionpack-2.1.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /bear2/lib/ruby/gems/1.8/gems/actionpack-2.1.2/lib/action_controller/rescue.rb:201:in `perform_action_without_caching'
+    /bear2/lib/ruby/gems/1.8/gems/actionpack-2.1.2/lib/action_controller/caching/sql_cache.rb:13:in `perform_action'
+    /bear2/lib/ruby/gems/1.8/gems/activerecord-2.1.2/lib/active_record/connection_adapters/abstract/query_cache.rb:33:in `cache'
+    /bear2/lib/ruby/gems/1.8/gems/activerecord-2.1.2/lib/active_record/query_cache.rb:8:in `cache'
+    /bear2/lib/ruby/gems/1.8/gems/actionpack-2.1.2/lib/action_controller/caching/sql_cache.rb:12:in `perform_action'
+    /bear2/lib/ruby/gems/1.8/gems/actionpack-2.1.2/lib/action_controller/base.rb:529:in `send'
+    /bear2/lib/ruby/gems/1.8/gems/actionpack-2.1.2/lib/action_controller/base.rb:529:in `process_without_filters'
+    /bear2/lib/ruby/gems/1.8/gems/actionpack-2.1.2/lib/action_controller/filters.rb:568:in `process_without_session_management_support'
+    /bear2/lib/ruby/gems/1.8/gems/actionpack-2.1.2/lib/action_controller/session_management.rb:130:in `process'
+    /bear2/lib/ruby/gems/1.8/gems/actionpack-2.1.2/lib/action_controller/base.rb:389:in `process'
+    /bear2/lib/ruby/gems/1.8/gems/actionpack-2.1.2/lib/action_controller/dispatcher.rb:149:in `handle_request'
+    /bear2/lib/ruby/gems/1.8/gems/actionpack-2.1.2/lib/action_controller/dispatcher.rb:107:in `dispatch'
+    /bear2/lib/ruby/gems/1.8/gems/actionpack-2.1.2/lib/action_controller/dispatcher.rb:104:in `synchronize'
+    /bear2/lib/ruby/gems/1.8/gems/actionpack-2.1.2/lib/action_controller/dispatcher.rb:104:in `dispatch'
+    /bear2/lib/ruby/gems/1.8/gems/actionpack-2.1.2/lib/action_controller/dispatcher.rb:120:in `dispatch_cgi'
+    /bear2/lib/ruby/gems/1.8/gems/actionpack-2.1.2/lib/action_controller/dispatcher.rb:35:in `dispatch'
+    /bear2/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:76:in `process'
+    /bear2/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    /bear2/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `process'
+    /bear2/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+    /bear2/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+    /bear2/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+    /bear2/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /bear2/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+    /bear2/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+    /bear2/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /bear2/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+    /bear2/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+    /bear2/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+    /bear2/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:282:in `run'
+    /bear2/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:281:in `each'
+    /bear2/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:281:in `run'
+    /bear2/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:128:in `run'
+    /bear2/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel/command.rb:212:in `run'
+    /bear2/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:281
+    /bear2/lib/ruby/gems/1.8/gems/activesupport-2.1.2/lib/active_support/dependencies.rb:503:in `load'
+    /bear2/lib/ruby/gems/1.8/gems/activesupport-2.1.2/lib/active_support/dependencies.rb:503:in `load'
+    /bear2/lib/ruby/gems/1.8/gems/activesupport-2.1.2/lib/active_support/dependencies.rb:355:in `new_constants_in'
+    /bear2/lib/ruby/gems/1.8/gems/activesupport-2.1.2/lib/active_support/dependencies.rb:503:in `load'
+    /bear2/lib/ruby/gems/1.8/gems/rails-2.1.2/lib/commands/servers/mongrel.rb:64
+    /bear2/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /bear2/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    /bear2/lib/ruby/gems/1.8/gems/activesupport-2.1.2/lib/active_support/dependencies.rb:510:in `require'
+    /bear2/lib/ruby/gems/1.8/gems/activesupport-2.1.2/lib/active_support/dependencies.rb:355:in `new_constants_in'
+    /bear2/lib/ruby/gems/1.8/gems/activesupport-2.1.2/lib/active_support/dependencies.rb:510:in `require'
+    /bear2/lib/ruby/gems/1.8/gems/rails-2.1.2/lib/commands/server.rb:39
+    /bear2/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /bear2/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    ./script/server:3
+
+Rendering /bear2/lib/ruby/gems/1.8/gems/actionpack-2.1.2/lib/action_controller/templates/rescues/layout.erb (not_found)
+
+
+Processing ContactsController#index (for 192.168.1.226 at 2009-01-07 19:24:33) [GET]
+  Session ID: BAh7ByIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7ADoMY3NyZl9pZCIlZWUwOTA3ZmMwZDk5YTRiNTc3
+NzE3YzIzM2MxZDBmNGM=--79c0346e7f451e3258e41d967f097a93e2e9bec0
+  Parameters: {"action"=>"index", "controller"=>"contacts"}
+
+
+ActionController::UnknownAction (No action responded to index):
+    /bear2/lib/ruby/gems/1.8/gems/actionpack-2.1.2/lib/action_controller/filters.rb:579:in `call_filters'
+    /bear2/lib/ruby/gems/1.8/gems/actionpack-2.1.2/lib/action_controller/filters.rb:572:in `perform_action_without_benchmark'
+    /bear2/lib/ruby/gems/1.8/gems/actionpack-2.1.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /bear2/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /bear2/lib/ruby/gems/1.8/gems/actionpack-2.1.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /bear2/lib/ruby/gems/1.8/gems/actionpack-2.1.2/lib/action_controller/rescue.rb:201:in `perform_action_without_caching'
+    /bear2/lib/ruby/gems/1.8/gems/actionpack-2.1.2/lib/action_controller/caching/sql_cache.rb:13:in `perform_action'
+    /bear2/lib/ruby/gems/1.8/gems/activerecord-2.1.2/lib/active_record/connection_adapters/abstract/query_cache.rb:33:in `cache'
+    /bear2/lib/ruby/gems/1.8/gems/activerecord-2.1.2/lib/active_record/query_cache.rb:8:in `cache'
+    /bear2/lib/ruby/gems/1.8/gems/actionpack-2.1.2/lib/action_controller/caching/sql_cache.rb:12:in `perform_action'
+    /bear2/lib/ruby/gems/1.8/gems/actionpack-2.1.2/lib/action_controller/base.rb:529:in `send'
+    /bear2/lib/ruby/gems/1.8/gems/actionpack-2.1.2/lib/action_controller/base.rb:529:in `process_without_filters'
+    /bear2/lib/ruby/gems/1.8/gems/actionpack-2.1.2/lib/action_controller/filters.rb:568:in `process_without_session_management_support'
+    /bear2/lib/ruby/gems/1.8/gems/actionpack-2.1.2/lib/action_controller/session_management.rb:130:in `process'
+    /bear2/lib/ruby/gems/1.8/gems/actionpack-2.1.2/lib/action_controller/base.rb:389:in `process'
+    /bear2/lib/ruby/gems/1.8/gems/actionpack-2.1.2/lib/action_controller/dispatcher.rb:149:in `handle_request'
+    /bear2/lib/ruby/gems/1.8/gems/actionpack-2.1.2/lib/action_controller/dispatcher.rb:107:in `dispatch'
+    /bear2/lib/ruby/gems/1.8/gems/actionpack-2.1.2/lib/action_controller/dispatcher.rb:104:in `synchronize'
+    /bear2/lib/ruby/gems/1.8/gems/actionpack-2.1.2/lib/action_controller/dispatcher.rb:104:in `dispatch'
+    /bear2/lib/ruby/gems/1.8/gems/actionpack-2.1.2/lib/action_controller/dispatcher.rb:120:in `dispatch_cgi'
+    /bear2/lib/ruby/gems/1.8/gems/actionpack-2.1.2/lib/action_controller/dispatcher.rb:35:in `dispatch'
+    /bear2/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:76:in `process'
+    /bear2/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    /bear2/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `process'
+    /bear2/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+    /bear2/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+    /bear2/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+    /bear2/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /bear2/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+    /bear2/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+    /bear2/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /bear2/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+    /bear2/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+    /bear2/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+    /bear2/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:282:in `run'
+    /bear2/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:281:in `each'
+    /bear2/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:281:in `run'
+    /bear2/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:128:in `run'
+    /bear2/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel/command.rb:212:in `run'
+    /bear2/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:281
+    /bear2/lib/ruby/gems/1.8/gems/activesupport-2.1.2/lib/active_support/dependencies.rb:503:in `load'
+    /bear2/lib/ruby/gems/1.8/gems/activesupport-2.1.2/lib/active_support/dependencies.rb:503:in `load'
+    /bear2/lib/ruby/gems/1.8/gems/activesupport-2.1.2/lib/active_support/dependencies.rb:355:in `new_constants_in'
+    /bear2/lib/ruby/gems/1.8/gems/activesupport-2.1.2/lib/active_support/dependencies.rb:503:in `load'
+    /bear2/lib/ruby/gems/1.8/gems/rails-2.1.2/lib/commands/servers/mongrel.rb:64
+    /bear2/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /bear2/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    /bear2/lib/ruby/gems/1.8/gems/activesupport-2.1.2/lib/active_support/dependencies.rb:510:in `require'
+    /bear2/lib/ruby/gems/1.8/gems/activesupport-2.1.2/lib/active_support/dependencies.rb:355:in `new_constants_in'
+    /bear2/lib/ruby/gems/1.8/gems/activesupport-2.1.2/lib/active_support/dependencies.rb:510:in `require'
+    /bear2/lib/ruby/gems/1.8/gems/rails-2.1.2/lib/commands/server.rb:39
+    /bear2/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /bear2/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    ./script/server:3
+
+Rendering /bear2/lib/ruby/gems/1.8/gems/actionpack-2.1.2/lib/action_controller/templates/rescues/layout.erb (not_found)
+
+
+Processing ContactsController#show (for 192.168.1.226 at 2009-01-07 19:24:48) [GET]
+  Session ID: BAh7ByIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7ADoMY3NyZl9pZCIlZWUwOTA3ZmMwZDk5YTRiNTc3
+NzE3YzIzM2MxZDBmNGM=--79c0346e7f451e3258e41d967f097a93e2e9bec0
+  Parameters: {"action"=>"show", "controller"=>"contacts"}
+Rendering template within layouts/default
+Rendering contacts/new
+Completed in 0.09293 (10 reqs/sec) | Rendering: 0.08230 (88%) | DB: 0.00000 (0%) | 200 OK [http://192.168.1.153/]
+
+
+Processing ContactsController#create (for 192.168.1.226 at 2009-01-07 19:24:56) [POST]
+  Session ID: BAh7ByIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7ADoMY3NyZl9pZCIlZWUwOTA3ZmMwZDk5YTRiNTc3
+NzE3YzIzM2MxZDBmNGM=--79c0346e7f451e3258e41d967f097a93e2e9bec0
+  Parameters: {"to_passport"=>"次へ", "contact"=>{"email"=>""}, "authenticity_token"=>"9dc462b5cdfaf5e0c7e027968fc86bcaf581a8b4", "action"=>"create", "controller"=>"contacts", "user"=>{"region"=>"北海道", "address"=>"", "zipcode"=>"", "first_name_roman"=>"", "tel"=>"", "mobile"=>"", "last_name"=>"", "fax"=>"", "last_name_roman"=>"", "first_name"=>""}}
+Rendering template within layouts/default
+Rendering contacts/passport
+Filter chain halted as [:create_confirmation] rendered_or_redirected.
+Completed in 0.05666 (17 reqs/sec) | Rendering: 0.04961 (87%) | DB: 0.00000 (0%) | 200 OK [http://192.168.1.153/contact]
+
+
+Processing ContactsController#create (for 192.168.1.226 at 2009-01-07 19:24:57) [POST]
+  Session ID: BAh7ByIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7ADoMY3NyZl9pZCIlZWUwOTA3ZmMwZDk5YTRiNTc3
+NzE3YzIzM2MxZDBmNGM=--79c0346e7f451e3258e41d967f097a93e2e9bec0
+  Parameters: {"contact"=>{"email"=>""}, "authenticity_token"=>"9dc462b5cdfaf5e0c7e027968fc86bcaf581a8b4", "action"=>"create", "controller"=>"contacts", "passport"=>{"issued_at(3i)"=>"7", "birthday(1i)"=>"2009", "birthday(2i)"=>"1", "birthday(3i)"=>"7", "expired_at(1i)"=>"2009", "expired_at(2i)"=>"1", "origin"=>"", "expired_at(3i)"=>"7", "resident"=>"", "issued_at(1i)"=>"2009", "issued_at(2i)"=>"1"}, "to_question"=>"次へ"}
+Rendering template within layouts/default
+Rendering contacts/question
+Filter chain halted as [:create_confirmation] rendered_or_redirected.
+Completed in 0.01667 (59 reqs/sec) | Rendering: 0.00989 (59%) | DB: 0.00000 (0%) | 200 OK [http://192.168.1.153/contact]
+
+
+Processing ContactsController#show (for 192.168.1.226 at 2009-01-07 19:27:41) [GET]
+  Session ID: BAh7ByIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7ADoMY3NyZl9pZCIlZWUwOTA3ZmMwZDk5YTRiNTc3
+NzE3YzIzM2MxZDBmNGM=--79c0346e7f451e3258e41d967f097a93e2e9bec0
+  Parameters: {"action"=>"show", "controller"=>"contacts"}
+Rendering template within layouts/default
+Rendering contacts/new
+Completed in 0.02012 (49 reqs/sec) | Rendering: 0.00833 (41%) | DB: 0.00000 (0%) | 200 OK [http://192.168.1.153/contact]
+
+
+Processing ContactsController#create (for 192.168.1.226 at 2009-01-07 19:27:42) [POST]
+  Session ID: BAh7ByIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7ADoMY3NyZl9pZCIlZWUwOTA3ZmMwZDk5YTRiNTc3
+NzE3YzIzM2MxZDBmNGM=--79c0346e7f451e3258e41d967f097a93e2e9bec0
+  Parameters: {"to_passport"=>"次へ", "contact"=>{"email"=>""}, "authenticity_token"=>"9dc462b5cdfaf5e0c7e027968fc86bcaf581a8b4", "action"=>"create", "controller"=>"contacts", "user"=>{"region"=>"北海道", "address"=>"", "zipcode"=>"", "first_name_roman"=>"", "tel"=>"", "mobile"=>"", "last_name"=>"", "fax"=>"", "last_name_roman"=>"", "first_name"=>""}}
+Rendering template within layouts/default
+Rendering contacts/passport
+Filter chain halted as [:create_confirmation] rendered_or_redirected.
+Completed in 0.02206 (45 reqs/sec) | Rendering: 0.01538 (69%) | DB: 0.00000 (0%) | 200 OK [http://192.168.1.153/contact]
+
+
+Processing ContactsController#create (for 192.168.1.226 at 2009-01-07 19:27:43) [POST]
+  Session ID: BAh7ByIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7ADoMY3NyZl9pZCIlZWUwOTA3ZmMwZDk5YTRiNTc3
+NzE3YzIzM2MxZDBmNGM=--79c0346e7f451e3258e41d967f097a93e2e9bec0
+  Parameters: {"contact"=>{"email"=>""}, "authenticity_token"=>"9dc462b5cdfaf5e0c7e027968fc86bcaf581a8b4", "action"=>"create", "controller"=>"contacts", "passport"=>{"issued_at(3i)"=>"7", "birthday(1i)"=>"2009", "birthday(2i)"=>"1", "birthday(3i)"=>"7", "expired_at(1i)"=>"2009", "expired_at(2i)"=>"1", "origin"=>"", "expired_at(3i)"=>"7", "resident"=>"", "issued_at(1i)"=>"2009", "issued_at(2i)"=>"1"}, "to_question"=>"次へ"}
+Rendering template within layouts/default
+Rendering contacts/question
+Filter chain halted as [:create_confirmation] rendered_or_redirected.
+Completed in 0.08181 (12 reqs/sec) | Rendering: 0.07507 (91%) | DB: 0.00000 (0%) | 200 OK [http://192.168.1.153/contact]
+
+
+Processing ContactsController#create (for 192.168.1.226 at 2009-01-07 19:27:46) [POST]
+  Session ID: BAh7ByIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7ADoMY3NyZl9pZCIlZWUwOTA3ZmMwZDk5YTRiNTc3
+NzE3YzIzM2MxZDBmNGM=--79c0346e7f451e3258e41d967f097a93e2e9bec0
+  Parameters: {"to_payment"=>"次へ", "authenticity_token"=>"9dc462b5cdfaf5e0c7e027968fc86bcaf581a8b4", "action"=>"create", "question"=>{"a"=>"on", "b"=>"on", "c"=>"on", "d"=>"on", "e"=>"on", "f"=>"on", "g"=>"on"}, "controller"=>"contacts", "test"=>{"test"=>"0"}}
+Rendering template within layouts/default
+Rendering contacts/payment
+Filter chain halted as [:create_confirmation] rendered_or_redirected.
+Completed in 0.00434 (230 reqs/sec) | Rendering: 0.00383 (88%) | DB: 0.00000 (0%) | 200 OK [http://192.168.1.153/contact]
+
+
+Processing ContactsController#create (for 192.168.1.226 at 2009-01-07 19:27:48) [POST]
+  Session ID: BAh7ByIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7ADoMY3NyZl9pZCIlZWUwOTA3ZmMwZDk5YTRiNTc3
+NzE3YzIzM2MxZDBmNGM=--79c0346e7f451e3258e41d967f097a93e2e9bec0
+  Parameters: {"authenticity_token"=>"9dc462b5cdfaf5e0c7e027968fc86bcaf581a8b4", "action"=>"create", "create"=>"次へ", "controller"=>"contacts"}
+Rendering template within layouts/default
+Rendering contacts/create
+Completed in 0.00455 (219 reqs/sec) | Rendering: 0.00169 (37%) | DB: 0.00000 (0%) | 200 OK [http://192.168.1.153/contact]
