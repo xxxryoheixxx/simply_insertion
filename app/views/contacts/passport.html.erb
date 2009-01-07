@@ -1,0 +1,41 @@
+<% form_for :passport, :url => contact_path do |f| %>
+<table>
+  <tr>
+    <th>パスポートNo</th>
+    <td><%= text_field :contact, :email %></td>
+  </tr>
+  <tr>
+    <th>性別</th>
+    <td>
+      男<%= f.radio_button :sex, "男性" %>
+      女<%= f.radio_button :sex, "女性" %>
+    </td>
+  </tr>
+  <tr>
+    <th>国籍</th>
+    <td><%= f.text_field :origin %></td>
+  </tr>
+  <tr>
+    <th>居住国</th>
+    <td><%= f.text_field :resident %></td>
+  </tr>
+  <tr>
+    <th>誕生日</th>
+    <td><%= f.date_select :birthday %></td>
+  </tr>
+  <tr>
+    <th>発行年月日</th>
+    <td><%= f.date_select :issued_at %></td>
+  </tr>
+  <tr>
+    <th>有効期限</th>
+    <td><%= f.date_select :expired_at %></td>
+  </tr>
+  <tr>
+    <td colspan="2" align="right">
+      <%= submit_tag "戻る", :name => :to_new %>
+      <%= submit_tag "次へ", :name => :to_question %>
+    </td>
+  </tr>
+</table>
+<% end %>

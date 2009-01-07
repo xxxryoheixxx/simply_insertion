@@ -1,0 +1,55 @@
+<% form_for @user, :url => contact_path do |f| %>
+<table>
+  <tr>
+    <th>メールアドレス</th>
+    <td><%= text_field :contact, :email %></td>
+  </tr>
+  <tr>
+    <th>メールアドレス(確認用)</th>
+    <td><%= text_field :contact, :email %></td>
+  </tr>
+  <tr>
+    <th>ご氏名</th>
+    <td>
+      姓:<%= f.text_field :last_name %>
+      名:<%= f.text_field :first_name %>
+    </td>
+  </tr>
+  <tr>
+    <th>ご氏名(ローマ字)</th>
+    <td>
+      姓:<%= f.text_field :last_name_roman %>
+      名:<%= f.text_field :first_name_roman %>
+    </td>
+  </tr>
+  <tr>
+    <th>郵便番号</th>
+    <td><%= f.text_field :zipcode, :size => 10 %></td>
+  </tr>
+  <tr>
+    <th>都道府県</th>
+    <td><%= f.select :region, regions %></td>
+  </tr>
+  <tr>
+    <th>住所</th>
+    <td><%= f.text_field :address %></td>
+  </tr>
+  <tr>
+    <th>電話番号</th>
+    <td><%= f.text_field :tel %></td>
+  </tr>
+  <tr>
+    <th>FAX</th>
+    <td><%= f.text_field :fax %></td>
+  </tr>
+  <tr>
+    <th>電話番号(携帯)</th>
+    <td><%= f.text_field :mobile %></td>
+  </tr>
+  <tr>
+    <td colspan="2" align="right">
+      <%= submit_tag "次へ", :name => :to_passport %>
+    </td>
+  </tr>
+</table>
+<% end %>

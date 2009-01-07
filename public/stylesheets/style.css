@@ -1,0 +1,46 @@
+@charset "utf-8";
+@import "clearfix.css";
+div, body {
+  padding: 0px;
+  margin: 0px;
+}
+div#content {
+  width: 780px;
+}
+div#flow {
+  width: 700px;
+  margin: 0px auto;
+}
+div#flow ul li {
+  margin: 0px 5px;
+  padding: 25px 10px;
+  background-color: #FFAAAA;
+  list-style: none;
+  float: left;
+  width: 100px;
+  text-align: center;
+  font-weight: bold;
+}
+div#flow ul li.select {
+  background-color: #AAFFAA;
+}
+div#main {
+  width: 700px;
+  margin: 0px auto;
+}
+div#main table {
+  width: 600px;
+  margin: 0px auto;
+}
+div#main table th {
+  text-align: right;
+  padding-right: 10px;
+}
+div#main div.questions {
+  width: 600px;
+  margin: 0px auto;
+}
+div#main div.questions div {
+  text-align: center;
+  margin: 0px auto;
+}

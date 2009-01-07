@@ -17,6 +17,7 @@ ActionController::Routing::Routes.draw do |map|
 
   # Sample resource route with sub-resources:
   #   map.resources :products, :has_many => [ :comments, :sales ], :has_one => :seller
+  map.resource :contact
   
   # Sample resource route with more complex sub-resources
   #   map.resources :products do |products|

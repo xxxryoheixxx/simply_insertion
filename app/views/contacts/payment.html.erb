@@ -1,0 +1,39 @@
+<% form_tag contact_path do %>
+<table>
+  <tr>
+    <th>支払い方法</th>
+    <th>手数料</th>
+    <th>登録完了日数(目安)</th>
+    <th>選択</th>
+  </tr>
+  <tr>
+    <td>クレジットカード</td>
+    <td>無料</td>
+    <td>決済完了後 5日前後</td>
+    <td><%= radio_button :payment, :seclet, "credit" %></td>
+  </tr>
+  <tr>
+    <td>コンビニ払い</td>
+    <td>無料</td>
+    <td>入金確認後 5日前後</td>
+    <td><%= radio_button :payment, :seclet, "convine" %></td>
+  </tr>
+  <tr>
+    <td>銀行振込み</td>
+    <td>無料(振込み手数料はご負担ください)</td>
+    <td>入金確認後 5日前後</td>
+    <td><%= radio_button :payment, :seclet, "bank" %></td>
+  </tr>
+  <tr>
+    <td>郵便振替</td>
+    <td>無料(振込み手数料はご負担ください)</td>
+    <td>入金確認後 5日前後</td>
+    <td><%= radio_button :payment, :seclet, "post" %></td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <%= submit_tag "次へ", :name => "create" %>
+    </td>
+  </tr>
+</table>
+<% end %>
